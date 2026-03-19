@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="xrLabel93.Text" xml:space="preserve"><value>Chịu trách nhiệm về những sự cố xảy ra do lỗi của mình gây ra trong quá trình tiêm chủng. Đối với những rủi ro, sự cố xảy ra trong quá trình tiêm chủng mà không do lỗi của Bên A thì Bên A sẽ phối hợp, hỗ trợ Bên B để xử lý sự cố, rủi ro.</value></data>
+  <data name="xrLabel109.Text" xml:space="preserve"><value>Trong các trường hợp có phát sinh tranh chấp hoặc thay đổi nội dung nào của bản xác nhận này thì hai Bên cùng nhau đàm phán, thương lượng trên tinh thần thiện chí và hợp tác. Trong trường hợp không đạt được thỏa thuận chung thì mỗi Bên có quyền yêu cầu Tòa án có thẩm quyền giải quyết theo quy định của pháp luật Việt Nam.</value></data>
+  <data name="xrLabel102.Text" xml:space="preserve"><value>Bên A sẽ không hoàn trả phí dịch vụ trong các trường hợp thay đổi dịch vụ từ phía Bên B. Các chi phí phát sinh ngoài gói dịch vụ đã thỏa thuận trong bản xác nhận này sẽ được thanh toán theo quy định của Bên A tại thời điểm thanh toán.</value></data>
+  <data name="xrLabel28.Text" xml:space="preserve"><value>Bên A đồng ý cung cấp và Bên B đồng ý sử dụng dịch vụ gói tiêm chủng vaccine với nội dung chi tiết về gói tiêm chủng vaccine (tên vaccine, loại vaccine, nước sản xuất, số lượng, giá/phí dịch vụ,...) được quy định tại Phụ lục 1 đính kèm.</value></data>
+  </root>

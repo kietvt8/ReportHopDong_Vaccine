@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="xrLabel137.Text" xml:space="preserve"><value>Số tiền phí dịch vụ còn lại sẽ được Tổ chức tín dụng giải ngân theo Hợp đồng tín dụng giữa Bên B và Tổ chức tín dụng vào tài khoản do Bên A chỉ định. Nếu trong vòng 05 ngày kể từ ngày đặt cọc mà Bên A nhận được số tiền này từ Tổ chức tín dụng thì Bên A sẽ hỗ trợ cho Bên B một khoản tiền bằng với khoản lãi vay mà Bên B phải trả theo Hợp đồng tín dụng giữa Bên B và Tổ chức tín dụng (khoản hỗ trợ này sẽ được Bên A thanh toán trực tiếp cho Tổ chức tín dụng, không chi trả trực tiếp cho Bên B)</value></data>
+  <data name="xrLabel135.Text" xml:space="preserve"><value>Trong vòng 10 ngày kể từ ngày đặt cọc, Bên B phải thanh toán 100% phí dịch vụ cho Bên A bằng tiền Việt Nam đồng bằng tiền mặt hoặc chuyển khoản vào tài khoản của Bên A. Nếu trong khoảng thời hạn thanh toán này, Bên A nhận được thông báo của Bên B gửi qua email/văn bản/… về việc đề nghị gia hạn thời gian thanh toán, Bên A sẽ gia hạn thanh toán thêm tối đa (90) chín mươi ngày kể từ ngày hết hạn thanh toán theo Khoản này.</value></data>
+  <data name="xrLabel124.Text" xml:space="preserve"><value>Trường hợp có phát sinh tranh chấp hoặc thay đổi nội dung nào của Giấy xác nhận này thì hai Bên cùng nhau đàm phán, thương lượng trên tinh thần thiện chí và hợp tác. Trong trường hợp không đạt được thỏa thuận chung thì mỗi Bên có quyền yêu cầu Tòa án nhân dân có thẩm quyền giải quyết theo quy định của pháp luật Việt Nam.</value></data>
+  <data name="xrLabel127.Text" xml:space="preserve"><value>Giấy xác nhận này có hiệu lực kể từ ngày hai Bên ký và Bên B đã thanh toán phí dịch vụ theo quy định trong Giấy xác nhận này. Giấy xác nhận này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, mỗi Bên giữ 01 (một) bản.</value></data>
+  <data name="xrLabel46.Text" xml:space="preserve"><value>Trong quá trình thực hiện dịch vụ gói tiêm chủng vắc xin, nếu có phát sinh việc thay đổi loại vắc xin đã quy định tại Phụ lục I từ phía Bên A thì Bên A sẽ thông báo cho Bên B để hai bên thỏa thuận và thống nhất việc thay đổi vắc xin.</value></data>
+  <data name="xrLabel29.Text" xml:space="preserve"><value>Bên A đồng ý cung cấp và Bên B đồng ý sử dụng dịch vụ gói tiêm chủng vắc xin với nội dung chi tiết về gói tiêm chủng vắc xin (tên vắc xin, loại vắc xin, nước sản xuất, số lượng, giá/phí dịch vụ,...) được quy định tại 	       </value></data>
+  <data name="xrLabel107.Text" xml:space="preserve"><value>Chịu trách nhiệm về những sự cố xảy ra do lỗi của mình gây ra trong quá trình tiêm chủng. Đối với những rủi ro, sự cố xảy ra trong quá trình tiêm chủng mà không do lỗi của Bên A thì Bên A sẽ phối hợp, hỗ trợ Bên B để xử lý sự cố, rủi ro.</value></data>
+  <data name="xrLabel39.Text" xml:space="preserve"><value>Trường hợp Bên B chưa thu xếp được tài chính và cần vay của các tổ chức tín dụng (Ngân hàng, các công ty tài chính…) có hợp tác với Bên A (sau đây gọi chung là “Tổ chức tín dụng”) để thanh toán cho Bên A phí dịch vụ thì việc Bên B thanh toán cho Bên A 100% phí dịch vụ được thực hiện như sau:</value></data>
+  <data name="xrLabel33.Text" xml:space="preserve"><value>               Bên B đặt cọc cho Bên A số tiền: ___________ đồng (Bằng chữ: ______________________) ngay khi ký Xác nhận này để đảm bảo sử dụng dịch vụ gói tiêm chủng vắc xin của Bên A. Bên B thanh toán Khoản tiền đặt cọc cho Bên A bằng tiền Việt Nam đồng bằng tiền mặt hoặc chuyển khoản vào tài khoản của Bên A.</value></data>
+  </root>
