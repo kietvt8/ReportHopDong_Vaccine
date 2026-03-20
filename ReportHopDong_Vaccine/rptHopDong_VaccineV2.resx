@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrLabel140.Text" xml:space="preserve">
+    <value>Giấy xác nhận này có hiệu lực kể từ ngày hai Bên ký và Bên B đã thanh toán phí dịch vụ theo quy định trong Giấy xác nhận này. Giấy xác nhận này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, mỗi Bên giữ 01 (một) bản.</value>
+  </data>
   <data name="xrLabel139.Text" xml:space="preserve">
     <value>Trường hợp có phát sinh tranh chấp hoặc thay đổi nội dung nào của Giấy xác nhận này thì hai Bên cùng nhau đàm phán, thương lượng trên tinh thần thiện chí và hợp tác. Trong trường hợp không đạt được thỏa thuận chung thì mỗi Bên có quyền yêu cầu Tòa án nhân dân có thẩm quyền giải quyết theo quy định của pháp luật Việt Nam.</value>
   </data>
@@ -128,9 +131,6 @@
   </data>
   <data name="xrLabel136.Text" xml:space="preserve">
     <value>Nếu sau thời hạn 30 (ba mươi) ngày kể từ ngày đặt cọc và Bên A không nhận được thông báo của Bên B về việc đề nghị gia hạn thời hạn thanh toán hoặc sau 90 (chín mươi) ngày kể từ ngày được gia hạn thanh toán, Bên B không thanh toán 100% phí dịch vụ thì xem như Bên B từ chối sử dụng dịch vụ, tiền đặt cọc thuộc về Bên A.</value>
-  </data>
-  <data name="xrLabel131.Text" xml:space="preserve">
-    <value>Bên A đồng ý cung cấp và Bên B đồng ý sử dụng dịch vụ gói tiêm chủng vắc xin với nội dung chi tiết về gói tiêm chủng vắc xin (tên vắc xin, loại vắc xin, nước sản xuất, số lượng, giá/phí dịch vụ,...) được quy định tại </value>
   </data>
   <metadata name="rep_HopDong_Vaccine1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

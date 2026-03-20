@@ -175,11 +175,7 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 
 	private XRLabel xrLabel30;
 
-	private XRLabel xrLabel29;
-
 	private XRLabel xrLabel28;
-
-	private XRLabel xrLabel128;
 
 	private XRLabel xrLabel127;
 
@@ -313,8 +309,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 
 	private XRLabel xrLabel36;
 
-	private XRLabel xrLabel133;
-
 	private XRLabel xrLabel135;
 
 	private XRLabel xrLabel134;
@@ -322,12 +316,12 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 	private XRLabel xrLabel37;
 
 	private XRLabel xrLabel25;
-	private XRLabel xrLabel131;
 	private XRLabel xrLabel136;
 	private XRLabel xrLabel137;
 	private XRLabel xrLabel138;
 	private XRLabel xrLabel139;
 	private XRLabel xrLabel140;
+	private XRLabel xrLabel29;
 	private XRLabel xrLabel24;
 
 	public rptHopDong_VaccineV2()
@@ -476,18 +470,16 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrTableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
 			this.HTML = new DevExpress.XtraReports.UI.XRTableCell();
 			this.PanelDetail = new DevExpress.XtraReports.UI.XRPanel();
+			this.xrLabel140 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel139 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel138 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel137 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel136 = new DevExpress.XtraReports.UI.XRLabel();
-			this.xrLabel131 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel135 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel134 = new DevExpress.XtraReports.UI.XRLabel();
-			this.xrLabel133 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel132 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel130 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel129 = new DevExpress.XtraReports.UI.XRLabel();
-			this.xrLabel128 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel127 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel126 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel125 = new DevExpress.XtraReports.UI.XRLabel();
@@ -556,7 +548,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel32 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel31 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel30 = new DevExpress.XtraReports.UI.XRLabel();
-			this.xrLabel29 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel28 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel56 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel34 = new DevExpress.XtraReports.UI.XRLabel();
@@ -628,7 +619,7 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel60 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel59 = new DevExpress.XtraReports.UI.XRLabel();
 			this.xrLabel58 = new DevExpress.XtraReports.UI.XRLabel();
-			this.xrLabel140 = new DevExpress.XtraReports.UI.XRLabel();
+			this.xrLabel29 = new DevExpress.XtraReports.UI.XRLabel();
 			((System.ComponentModel.ISupportInitialize)(this.tableHTML)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.rep_HopDong_Vaccine1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
@@ -680,19 +671,17 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			// PanelDetail
 			// 
 			this.PanelDetail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel29,
             this.xrLabel140,
             this.xrLabel139,
             this.xrLabel138,
             this.xrLabel137,
             this.xrLabel136,
-            this.xrLabel131,
             this.xrLabel135,
             this.xrLabel134,
-            this.xrLabel133,
             this.xrLabel132,
             this.xrLabel130,
             this.xrLabel129,
-            this.xrLabel128,
             this.xrLabel127,
             this.xrLabel126,
             this.xrLabel125,
@@ -761,7 +750,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
             this.xrLabel32,
             this.xrLabel31,
             this.xrLabel30,
-            this.xrLabel29,
             this.xrLabel28,
             this.xrLabel56,
             this.xrLabel34,
@@ -803,6 +791,18 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.PanelDetail.Name = "PanelDetail";
 			this.PanelDetail.SizeF = new System.Drawing.SizeF(750F, 1605.583F);
 			this.PanelDetail.StylePriority.UseBorders = false;
+			// 
+			// xrLabel140
+			// 
+			this.xrLabel140.Font = new System.Drawing.Font("Times New Roman", 12F);
+			this.xrLabel140.LocationFloat = new DevExpress.Utils.PointFloat(25.70782F, 1543.201F);
+			this.xrLabel140.Name = "xrLabel140";
+			this.xrLabel140.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+			this.xrLabel140.SizeF = new System.Drawing.SizeF(721.7812F, 60.18201F);
+			this.xrLabel140.StylePriority.UseFont = false;
+			this.xrLabel140.StylePriority.UseTextAlignment = false;
+			this.xrLabel140.Text = resources.GetString("xrLabel140.Text");
+			this.xrLabel140.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
 			// 
 			// xrLabel139
 			// 
@@ -852,18 +852,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel136.Text = resources.GetString("xrLabel136.Text");
 			this.xrLabel136.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
 			// 
-			// xrLabel131
-			// 
-			this.xrLabel131.Font = new System.Drawing.Font("Times New Roman", 12F);
-			this.xrLabel131.LocationFloat = new DevExpress.Utils.PointFloat(26.04167F, 297.8125F);
-			this.xrLabel131.Name = "xrLabel131";
-			this.xrLabel131.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel131.SizeF = new System.Drawing.SizeF(721.9478F, 40F);
-			this.xrLabel131.StylePriority.UseFont = false;
-			this.xrLabel131.StylePriority.UseTextAlignment = false;
-			this.xrLabel131.Text = resources.GetString("xrLabel131.Text");
-			this.xrLabel131.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
-			// 
 			// xrLabel135
 			// 
 			this.xrLabel135.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -889,16 +877,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel134.Text = "(khấu trừ 100% tiền đặt cọc). Trong thời hạn thanh toán này, nếu Bên A nhận được " +
     "thông ";
 			this.xrLabel134.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
-			// 
-			// xrLabel133
-			// 
-			this.xrLabel133.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel133.LocationFloat = new DevExpress.Utils.PointFloat(150.2634F, 337.8125F);
-			this.xrLabel133.Name = "xrLabel133";
-			this.xrLabel133.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel133.SizeF = new System.Drawing.SizeF(100F, 21F);
-			this.xrLabel133.StylePriority.UseFont = false;
-			this.xrLabel133.Text = "đính kèm.";
 			// 
 			// xrLabel132
 			// 
@@ -929,16 +907,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel129.SizeF = new System.Drawing.SizeF(66F, 20.99994F);
 			this.xrLabel129.StylePriority.UseFont = false;
 			this.xrLabel129.Text = "Đặt cọc:";
-			// 
-			// xrLabel128
-			// 
-			this.xrLabel128.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-			this.xrLabel128.LocationFloat = new DevExpress.Utils.PointFloat(80.1248F, 337.8125F);
-			this.xrLabel128.Name = "xrLabel128";
-			this.xrLabel128.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel128.SizeF = new System.Drawing.SizeF(70.13855F, 21F);
-			this.xrLabel128.StylePriority.UseFont = false;
-			this.xrLabel128.Text = "Phụ lục I";
 			// 
 			// xrLabel127
 			// 
@@ -1701,17 +1669,6 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel30.SizeF = new System.Drawing.SizeF(26.04167F, 64.33322F);
 			this.xrLabel30.StylePriority.UseFont = false;
 			this.xrLabel30.Text = "2.";
-			// 
-			// xrLabel29
-			// 
-			this.xrLabel29.Font = new System.Drawing.Font("Times New Roman", 12F);
-			this.xrLabel29.LocationFloat = new DevExpress.Utils.PointFloat(26.04167F, 299.6877F);
-			this.xrLabel29.Name = "xrLabel29";
-			this.xrLabel29.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel29.SizeF = new System.Drawing.SizeF(721.8647F, 59.12494F);
-			this.xrLabel29.StylePriority.UseFont = false;
-			this.xrLabel29.StylePriority.UseTextAlignment = false;
-			this.xrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
 			// 
 			// xrLabel28
 			// 
@@ -2534,19 +2491,18 @@ public class rptHopDong_VaccineV2 : XtraReport, IReport
 			this.xrLabel58.Text = "BÊN A";
 			this.xrLabel58.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
-			// xrLabel140
+			// xrLabel29
 			// 
-			this.xrLabel140.Font = new System.Drawing.Font("Times New Roman", 12F);
-			this.xrLabel140.LocationFloat = new DevExpress.Utils.PointFloat(25.70782F, 1543.201F);
-			this.xrLabel140.Name = "xrLabel140";
-			this.xrLabel140.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel140.SizeF = new System.Drawing.SizeF(721.7812F, 60.18201F);
-			this.xrLabel140.StylePriority.UseFont = false;
-			this.xrLabel140.StylePriority.UseTextAlignment = false;
-			this.xrLabel140.Text = "Giấy xác nhận này có hiệu lực kể từ ngày hai Bên ký và Bên B đã thanh toán phí dịch vụ theo quy định" +
-		" trong Giấy xác nhận này. Giấy xác nhận này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, mỗi" +
-		" Bên giữ 01 (một) bản.";
-		this.xrLabel140.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
+			this.xrLabel29.Font = new System.Drawing.Font("Times New Roman", 12F);
+			this.xrLabel29.LocationFloat = new DevExpress.Utils.PointFloat(28.13568F, 299.6876F);
+			this.xrLabel29.Name = "xrLabel29";
+			this.xrLabel29.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+			this.xrLabel29.SizeF = new System.Drawing.SizeF(721.86F, 59.12488F);
+			this.xrLabel29.StylePriority.UseFont = false;
+			this.xrLabel29.AllowMarkupText= true;
+			this.xrLabel29.Text = "Bên A đồng ý cung cấp và Bên B đồng ý sử dụng dịch vụ gói tiêm chủng vắc xin với nội dung chi tiết về" +
+			" gói tiêm chủng vắc xin (tên vắc xin, loại vắc xin, nước sản xuất, số lượng, giá/phí dịch vụ,...) được quy" +
+			" định tại <b>Phụ lục I</b> đính kèm.";
 			// 
 			// rptHopDong_VaccineV2
 			// 
